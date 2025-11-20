@@ -44,11 +44,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.honda.nl/motorcycles.html
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home pagina
+  Home pagina 
   <img src="readme-images/dummy-plaatje2.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Store pagina 
+  Store pagina https://www.callofduty.com/nl/blackops7
   <img src="readme-images/dummy-plaatje1.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -62,6 +62,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+ Vraag | Antwoord
+--- | ---
+Use plain language and avoid figures of speech, idioms, and complicated metaphors. | yes
+--- | ---
+Make sure that button, a (links), and label (in forms) content is unique and descriptive | No
+--- | ---
+Validate your HTML. | No
+--- | ---
+Use a lang attribute on the html element. | Yes
+--- | ---
+Provide a unique title for each page. | Yes
+--- | ---
+Ensure that viewport zoom is not disabled. | Yes
+--- | ---
+Make sure there is a visible focus style for interactive elements that are navigated (tab and shift + tab) to via keyboard input. | No
+--- | ---
+Check to see that keyboard focus order matches the visual layout.| No
+--- | ---
+Check that the site can be rotated to any orientation. | Yes
+--- | ---
+Remove horizontal scrolling. | Yes
+--- | ---
+Ensure that button and link icons can be activated with ease (size and position). | Yes
+--- | ---
+
 
 </details>
 
