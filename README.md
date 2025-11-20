@@ -41,7 +41,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
   https://www.callofduty.com/nl
   en
-  https://www.honda.nl/motorcycles.html
+  ~https://www.honda.nl/motorcycles.html~
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina 
