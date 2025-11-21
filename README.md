@@ -161,11 +161,11 @@ Check custom ::selection colors. | Yes
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Jada     | Annabel          | student 3    | student 4        |
+  | Jada     | Annabel          | Sid    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | tekst naar links  | Hamburger menu wekt soms. | en ik dit    | en dan ik dat    |
-  | trekken bespreken, | Hoe kan de nav mee schalen met index? | nog een punt | dit wil ik zeker |
-  | svg vinden voor een pijl | Hoe krijg je meer witruimte  | ...          | ...              |
+  | tekst naar links  | Hamburger menu wekt soms. | Advertenties verwerken in de site    | en dan ik dat    |
+  | trekken bespreken, | Hoe kan de nav mee schalen met index? | Hoe maak je de achtergrond na | dit wil ik zeker |
+  | svg vinden voor een pijl | Hoe krijg je meer witruimte  | Hoe maak je een zoekbalk?  | ...              |
   |Order van de H'tjes aanpassen|  h1 en p in het midden zetten zonder container  |    |    |
 
 
