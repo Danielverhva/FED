@@ -3,18 +3,94 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="Daniël Vervaart" content="Call of Duty">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Howdy FED2526</title>
+	<title>Home</title>
 
-	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/home.css" rel="stylesheet">
+	<link href="styles/algemeen.css" rel="stylesheet">
 
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
+
 <body>
-	<h1>Howdy FED2526</h1>
+	<header role="banner">
+		<div>
+		  <a href="/" aria-label="Home">COD</a>
+	
+		  <nav aria-label="Hoofdmenu" role="navigation">
+			<ul role="menubar">
+			  <li role="none" data-menu="games">
+				<button aria-expanded="false" aria-haspopup="true">Games</button>
+				<div aria-hidden="true" role="menu">
+				  <a role="menuitem" href="#">Black Ops</a>
+				  <a role="menuitem" href="#">Warzone</a>
+				</div>
+			  </li>
+	
+			  <li role="none" data-menu="news">
+				<button aria-expanded="false" aria-haspopup="true">Nieuws</button>
+				<div aria-hidden="true" role="menu">
+				  <a role="menuitem" href="#">Laatste</a>
+				  <a role="menuitem" href="#">Events</a>
+				</div>
+			  </li>
+	
+			  <li role="none" data-menu="community">
+				<button aria-expanded="false" aria-haspopup="true">Community</button>
+				<div aria-hidden="true" role="menu">
+				  <a role="menuitem" href="#">Forums</a>
+				  <a role="menuitem" href="#">Creators</a>
+				</div>
+			  </li>
+	
+			  <li role="none" data-menu="store">
+				<button aria-expanded="false" aria-haspopup="true">Store</button>
+				<div aria-hidden="true" role="menu">
+				  <a role="menuitem" href="#">Bundles</a>
+				  <a role="menuitem" href="#">DLC</a>
+				</div>
+			  </li>
+			</ul>
+		  </nav>
+	
+		  
+		</div>
+	   <video autoplay muted loop id="Bo7Video">
+	 <source src="/Video/BO7_Video.mp4">
+	   </video>
+	   <button id="debtn">Pauze</button>
+	  </header>
+	
+	  <div aria-hidden="true" role="dialog" aria-label="Mobiel menu">
+		<button  class="hamburger" aria-label="Sluit">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<nav aria-label="Mobiel menu">
+		  <a href="#">Games</a>
+		  <a href="#">Nieuws</a>
+		  <a href="#">Community</a>
+		  <a href="#">Store</a>
+		  <a href="#">Speel nu</a>
+		</nav>
+	  </div>
+	
+	  <main>
+		<section style="padding:2em; min-height:40em; color:var(--text-muted)">
+		  <h1>COD</h1>
+		  <p>Scroll and test the nav on small screens like iPhone SE.</p>
+		</section>
+	  </main>
+	
+
+  
+
+
+	
 
 	<script defer src="scripts/script.js"></script>
 </body>

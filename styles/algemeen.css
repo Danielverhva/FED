@@ -1,0 +1,79 @@
+
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  
+  
+  
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  
+  :root{
+    --bg-0: #000000;
+    --bg-1: #040507;
+    --bg-2: #0b0b0c;
+    --bg-glass: rgba(255,255,255,0.03);
+  
+    --surface-page: var(--bg-1);
+    --surface-header: "../Video/BO7_Video.mp4";
+    --surface-panel: var(--bg-2);
+    --surface-nav:rgba(40, 40, 40, 0.5);
+  
+    --text: #ffffff;
+    --text-muted: #a6aab0;
+  
+    --accent-1: #f1c40f;
+  
+    --focus: rgba(255,255,255,0.08);
+    --shadow-1: rgba(0,0,0,0.5);
+  }
+  
+  
+      @font-face {
+        font-family: 'CODFONT';
+        src: url('../font/HitmarkerText-Regular.woff') format('woff2'); 
+       font-weight: 400;
+      }
+      @font-face {
+        font-family: 'CODFONT-med';
+        src: url('../font/HitmarkerText-Medium.woff2') format('woff2'); 
+       font-weight: 550;
+      }
+      @font-face {
+        font-family: 'CODFONT-bol';
+        src: url('../font/HitmarkerText-Bold.woff2') format('woff2'); 
+       font-weight: 700;
+      }
+      @font-face {
+        font-family: 'CODFONT-conden-reg';
+        src: url('../font/HitmarkerCondensed-Regular.woff2') format('woff2'); 
+       font-weight: 400;
+      }
+      @font-face {
+        font-family: 'CODFONT-conden-bla';
+        src: url('../font/HitmarkerCondensed-Black.woff2') format('woff2'); 
+       font-weight: 1000;
+      }
+
+
+      h2{
+        font-family:"CODFONT-bol";
+      }

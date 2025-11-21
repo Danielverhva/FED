@@ -1,0 +1,242 @@
+html { font-size: 100%; } /* 1em ≈ 16px */
+* { box-sizing: border-box; }
+body{
+  margin:0;
+  font-family: system-ui, Arial, sans-serif;
+  background:  var(--bg-0);
+  color: var(--text);
+  -webkit-font-smoothing:antialiased;
+}
+
+header{
+	
+	display:flex;
+	flex-direction: column;
+	
+	
+}
+
+#bo7Video {
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	min-width:none;
+	min-height: 100%;
+	
+}
+
+.content{
+	position: fixed;
+	bottom: 0;
+	color: var(--text);
+}
+
+#debtn {
+	background-color: var(--bg-glass);
+	color:var(--text);
+	width: 5em;
+}
+
+#debtn:hover{
+	background-color: var(--focus);
+	color:var(--text);
+}
+
+
+.wrap {
+  max-width: 68.75em;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.625em 1em;
+}
+
+/* logo */
+.wrap > a {
+  font-weight:700;
+  text-decoration:none;
+  color:var(--text);
+  font-size:1.125em;
+  padding:0.375em 0.5em;
+  background:var(--bg-0);
+  border-radius: 0.5em;
+}
+
+nav{
+	height: 5em;
+	width: 1000em;
+	background-color: var(--surface-nav);
+}
+
+/* nav area */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.nav-list button,
+.nav-list a {
+  background: transparent;
+  border: 0;
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.625em 0.75em;
+  cursor: pointer;
+  font-size: 0.875em;
+  border-radius: 0.375em;
+}
+.nav-list button:focus,
+.nav-list a:focus {
+  outline: 0.125em solid rgba(255,255,255,0.08);
+  outline-offset: 0.25em;
+}
+
+/* dropdowns verborgen als je de site opent */
+.nav-list li { position: relative; }
+.nav-list [aria-hidden="true"][role="menu"] {
+  position: static;
+  top: 3.25em;
+  left: 0;
+  min-width: 10em;
+  background: var(--panel-bg);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  box-shadow: 0 1.125em 2.5em rgba(0,0,0,0.5);
+  display: none;
+}
+.nav-list li.open > [role="menu"] { display: block; }
+.nav-list [role="menu"] a {
+  display: block;
+  color: var(--text);
+  padding: 0.375em 0.5em;
+  text-decoration: none;
+  font-size: 0.875em;
+  border-radius: 0.25em;
+}
+
+
+.utils {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.utils > button {
+  background: transparent;
+  border: 0;
+  color: var(--text);
+  font-size: 1em;
+  padding: 0.375em;
+  cursor: pointer;
+  border-radius: 0.375em;
+}
+.utils > a {
+  background: var(--accent);
+  color: #000;
+  padding: 0.5em 0.75em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9375em;
+}
+
+
+
+
+/* mobiele overlay standaard hidden, zichtbaar als body.mobile-open bestaat */
+[role="dialog"][aria-hidden="true"] {
+  display: none;
+}
+body.mobile-open [role="dialog"] {
+  display: block;
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(2,2,3,0.98), #000);
+  padding: 1.25em;
+  z-index: 80;
+}
+[role="dialog"] button { background: transparent; border: 0; color: var(--text); font-size: 1.125em; float: right; }
+button [role="dialog"]{
+	appearance: none;
+	
+	width:2.5em;
+	aspect-ratio:1/1;
+	padding:0;
+	
+	background-color:gold;
+	border:none;
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	
+  }
+  
+  
+  .hamburger span{
+	display:block;
+	transition:.3s;
+	width:1.5em;
+	height:.1em;
+	background-color:var(--text);
+	
+	grid-row-start:1;
+	grid-column-start:1;
+	
+	
+  }
+  
+  .hamburger span:nth-of-type(1){
+	translate: 0 -.3em;
+  }
+  
+  .hamburger span:nth-of-type(2){
+	
+  }
+  .hamburger span:nth-of-type(3){
+	translate: 0 .3em;
+  }
+  
+  button.is-open span:nth-of-type(1){
+	translate: 0 0;
+	rotate:45deg;
+  }
+  
+  button.is-open span:nth-of-type(2){
+	scale: 0 1;
+  }
+  button.is-open span:nth-of-type(3){
+	translate: 0 0;
+	rotate:-45deg
+  }
+/* hamburger styling Java voegt de class toe */
+.hamburger {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  border: 0;
+  background: var(--text);
+  padding: 0.375em;
+  cursor: pointer;
+}
+.hamburger span { display: block; height: 0.125em; background: var(--text); margin: 0.375em 0; border-radius: 0.125em; }
+
+/* responsive: iPhone SE ~20em (320px) */
+@media (max-width: 20em) {
+  .wrap { padding: 0.5em; gap: 0.5em; }
+  .nav-list { display: none; }
+  .hamburger { display: inline-block; }
+  .utils a { display: none; } 
+  .wrap > a { font-size: 1em; }
+  .nav-list [role="menu"] { left: 0; right: 0; min-width: auto; }
+}
+
+/* small-medium schermen. Nog uitwerken hoe dit meer invloed gaat hebben. */
+@media (max-width: 40em) {
+  .nav-list { gap: 0.25em; }
+  .wrap { padding: 0.5em 0.75em; }
+}
