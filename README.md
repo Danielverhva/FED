@@ -42,7 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.callofduty.com/nl
   en
   ~https://www.honda.nl/motorcycles.html~
-  
+
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina 
   <img src="readme-images/dummy-plaatje2.jpg" width="375px" alt="omschrijving van de pagina">
@@ -161,12 +161,12 @@ Check custom ::selection colors. | Yes
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Jada     | student 2          | student 3    | student 4        |
+  | Jada     | Annabel          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | tekst naar links  | en dit             | en ik dit    | en dan ik dat    |
-  | trekken bespreken, | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | svg vinden voor een pijl | ...                | ...          | ...              |
-  |Order van de H'tjes aanpassen|    |    |    |
+  | tekst naar links  | Hamburger menu wekt soms. | en ik dit    | en dan ik dat    |
+  | trekken bespreken, | Hoe kan de nav mee schalen met index? | nog een punt | dit wil ik zeker |
+  | svg vinden voor een pijl | Hoe krijg je meer witruimte  | ...          | ...              |
+  |Order van de H'tjes aanpassen|  h1 en p in het midden zetten zonder container  |    |    |
 
 
   ### Verslag van meeting
