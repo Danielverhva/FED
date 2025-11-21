@@ -336,7 +336,7 @@ Check custom ::selection colors. | Yes
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. [bron 1](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp)
   2. bron 2
   3. ...
 
