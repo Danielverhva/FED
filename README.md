@@ -41,8 +41,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
   https://www.callofduty.com/nl
   en
-  https://www.honda.nl/motorcycles.html
-
+  ~https://www.honda.nl/motorcycles.html~
+  
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina 
   <img src="readme-images/dummy-plaatje2.jpg" width="375px" alt="omschrijving van de pagina">
@@ -64,99 +64,60 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
  Vraag | Antwoord
 --- | ---
+**Content** | ---
 Use plain language and avoid figures of speech, idioms, and complicated metaphors. | yes
-
 Make sure that button, a (links), and label (in forms) content is unique and descriptive | No
-
+**Global** **Code**| ---
 Validate your HTML. | No
-
 Use a lang attribute on the html element. | Yes
-
 Provide a unique title for each page. | Yes
-
 Ensure that viewport zoom is not disabled. | Yes
-
+**Keyboard** | ---
 Make sure there is a visible focus style for interactive elements that are navigated (tab and shift + tab) to via keyboard input. | No
-
 Check to see that keyboard focus order matches the visual layout.| No
-
+**Mobile and** **Touch** | ---
 Check that the site can be rotated to any orientation. | Yes
-
 Remove horizontal scrolling. | Yes
-
 Ensure that button and link icons can be activated with ease (size and position). | Yes
-
 Ensure sufficient space between interactive items in order to provide a scroll area. | Yes
-
+**Headings** **Touch** | ---
 Use heading elements to introduce content. | Yes
-
 Use only one h1 element per page or view. | No
-
 Heading elements should be written in a logical sequence. | No
-
 Don't skip heading levels. | No
-
+**Lists** | ---
 Use list elements (ol, ul, and dl elements) for list content. | Yes
-
+**Images** | ---
 Make sure that all img elements have an alt attribute. | No
-
 Make sure that decorative images use null alt (empty) attribute values. | Yes
-
 Provide a text alternative for complex images such as charts, graphs, and maps. | No
-
 For images containing text, make sure the alt description includes the image's text.| Yes
-
-**Media** |   .
-
+**Media** |   ---
 Make sure that media does not autoplay. | No
-
 Check to see that all media can be paused. | Yes
-
 Video – Confirm the presence of captions. | Yes
-
 Audio – Confirm that transcripts are available. |Yes
-
-**Controls** |  .
-
+**Controls** |  ---
 Use the a element for links. | Yes
-
 Ensure that links are recognizable as links. | Yes
-
 Ensure that controls have :focus states. | Yes
-
 Use the button element for buttons. | No
-
 Provide a skip link and make sure that it is visible when focused. | Yes
-
 Identify links that open in a new tab or window. | Yes
-
-**Appearance** | .
-
+**Appearance** | ---
 Check if dark and light mode are supported. | No
-
 Check if high-contrast mode is supported. | No
-
 Increase text size to 200%. | Yes
-
 Make sure color isn't the only way information is conveyed. | Yes
-
-**Animation** | .
+**Animation** | ---
 Ensure animations are subtle and do not flash too much. | No
-
 Provide a mechanism to pause background video. | Yes
-
 Make sure all animation obeys the prefers-reducedmotion media query. | Yes
-
-**Color** | **Contrast**
-
+**Color** **Contrast**| ---
 Check the contrast for all normal-sized text. | Yes
-
 Check the contrast for all large-sized text. | Yes
-
 Check the contrast for all icons. | Yes
-
 Check text that overlaps images or video. | Yes
-
 Check custom ::selection colors. | Yes
 
 
