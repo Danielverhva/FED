@@ -187,9 +187,9 @@ document.addEventListener('DOMContentLoaded', function () {
     };
   
     
-                 window.addEventListener('resize', function () {
+                 window.addEventListener('resize', function (); {
                  if (window.innerWidth > 900) {
                 if (document.body.classList.contains('mobile-open')) closeMobile();
              }
-        });
+        })
     })})
